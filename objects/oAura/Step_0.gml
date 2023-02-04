@@ -9,5 +9,9 @@ if(chargeAura && image_index==4){
 }
 
 if(releaseAura){
+	charge = max(1,image_index);
 	image_speed=1;
+	with(instance_place(x,y,oEnemy1)){
+		size -= (0.05 * other.charge);	
+	}
 }
