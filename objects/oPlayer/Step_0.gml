@@ -32,6 +32,9 @@ if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,ro
 #region Weaponry
 
 if(attack && !playerAttacking){
+
+	if(keyboard_check_pressed(ord("1"))){ currentWeapon = "scythe" }
+	if(keyboard_check_pressed(ord("2"))){ currentWeapon = "hammer" }
 	playerAttacking = true;
 	playerAttack(currentWeapon);
 }

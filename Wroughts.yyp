@@ -33,10 +33,12 @@
   },
   "resources": [
     {"id":{"name":"oAura","path":"objects/oAura/oAura.yy",},"order":0,},
+    {"id":{"name":"sPlayerHammer","path":"sprites/sPlayerHammer/sPlayerHammer.yy",},"order":0,},
     {"id":{"name":"oEnemy1Y","path":"objects/oEnemy1Y/oEnemy1Y.yy",},"order":2,},
     {"id":{"name":"sEnemyPH","path":"sprites/sEnemyPH/sEnemyPH.yy",},"order":1,},
     {"id":{"name":"sScyEnemy","path":"sprites/sScyEnemy/sScyEnemy.yy",},"order":2,},
     {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},"order":1,},
+    {"id":{"name":"oPlayerHammer","path":"objects/oPlayerHammer/oPlayerHammer.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sAura","path":"sprites/sAura/sAura.yy",},"order":0,},
     {"id":{"name":"sArenaBoundary","path":"sprites/sArenaBoundary/sArenaBoundary.yy",},"order":0,},
