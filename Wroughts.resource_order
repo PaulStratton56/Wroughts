@@ -17,6 +17,5 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
-    {"name":"sBackground","order":2,"path":"sprites/sBackground/sBackground.yy",},
   ],
 }
