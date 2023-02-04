@@ -3,8 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Wroughts",
   "resources": [
-    {"id":{"name":"sTestGroundFloor","path":"sprites/sTestGroundFloor/sTestGroundFloor.yy",},"order":0,},
-    {"id":{"name":"BasicRoom4Ryan","path":"rooms/BasicRoom4Ryan/BasicRoom4Ryan.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -18,7 +17,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"BasicRoom4Ryan","path":"rooms/BasicRoom4Ryan/BasicRoom4Ryan.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":0,},
