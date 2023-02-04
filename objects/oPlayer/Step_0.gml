@@ -19,6 +19,9 @@ y+=vertical*Sp;
 
 #region Weaponry
 
+if(keyboard_check_pressed(ord("1"))){ currentWeapon = "scythe" }
+if(keyboard_check_pressed(ord("2"))){ currentWeapon = "hammer" }
+
 if(mouse_check_button_pressed(mb_left) && playerAttacking == false){
 	playerAttacking = true;
 	playerAttack(currentWeapon);

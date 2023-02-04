@@ -32,10 +32,12 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
+    {"id":{"name":"sPlayerHammer","path":"sprites/sPlayerHammer/sPlayerHammer.yy",},"order":0,},
     {"id":{"name":"oEnemy1Y","path":"objects/oEnemy1Y/oEnemy1Y.yy",},"order":2,},
     {"id":{"name":"sEnemyPH","path":"sprites/sEnemyPH/sEnemyPH.yy",},"order":1,},
     {"id":{"name":"sScyEnemy","path":"sprites/sScyEnemy/sScyEnemy.yy",},"order":2,},
     {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},"order":1,},
+    {"id":{"name":"oPlayerHammer","path":"objects/oPlayerHammer/oPlayerHammer.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayerScythe","path":"sprites/sPlayerScythe/sPlayerScythe.yy",},"order":0,},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},"order":0,},
