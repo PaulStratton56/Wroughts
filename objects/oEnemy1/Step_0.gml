@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-currentWeapon = "scythe";
-playerAttacking = false;
-Sp=5;
+
+
+frame++;
+if(frame > 120){
+	xSp *= -1;
+	frame = 0;
+}
+x+=xSp;
