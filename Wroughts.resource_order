@@ -16,6 +16,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oAura","order":2,"path":"objects/oAura/oAura.yy",},
+    {"name":"sAura","order":5,"path":"sprites/sAura/sAura.yy",},
+    {"name":"sArenaBoundary","order":4,"path":"sprites/sArenaBoundary/sArenaBoundary.yy",},
     {"name":"sPlayerScythe","order":3,"path":"sprites/sPlayerScythe/sPlayerScythe.yy",},
     {"name":"oPlayerScythe","order":1,"path":"objects/oPlayerScythe/oPlayerScythe.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
