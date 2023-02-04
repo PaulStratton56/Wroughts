@@ -3,7 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Wroughts",
   "resources": [
-    {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},"order":3,},
+    {"id":{"name":"oPentagon","path":"objects/oPentagon/oPentagon.yy",},"order":3,},
     {"id":{"name":"oEnemy1Y","path":"objects/oEnemy1Y/oEnemy1Y.yy",},"order":2,},
     {"id":{"name":"sEnemyPH","path":"sprites/sEnemyPH/sEnemyPH.yy",},"order":1,},
     {"id":{"name":"sScyEnemy","path":"sprites/sScyEnemy/sScyEnemy.yy",},"order":2,},

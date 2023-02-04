@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object4",
+  "name": "oPentagon",
   "spriteId": {
     "name": "sScyEnemy",
     "path": "sprites/sScyEnemy/sScyEnemy.yy",
