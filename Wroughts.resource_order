@@ -16,6 +16,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sPlayerScythe","order":3,"path":"sprites/sPlayerScythe/sPlayerScythe.yy",},
+    {"name":"oPlayerScythe","order":1,"path":"objects/oPlayerScythe/oPlayerScythe.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
   ],
 }
