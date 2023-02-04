@@ -7,6 +7,7 @@
     {"id":{"name":"oEnemy1Y","path":"objects/oEnemy1Y/oEnemy1Y.yy",},"order":2,},
     {"id":{"name":"sEnemyPH","path":"sprites/sEnemyPH/sEnemyPH.yy",},"order":1,},
     {"id":{"name":"sScyEnemy","path":"sprites/sScyEnemy/sScyEnemy.yy",},"order":2,},
+    {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},"order":3,},
     {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},"order":1,},
     {"id":{"name":"otestplayer","path":"objects/otestplayer/otestplayer.yy",},"order":0,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":0,},
@@ -50,6 +51,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
