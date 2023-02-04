@@ -1,13 +1,20 @@
-// ratio of the pentagon
-ratio = 40;
-startingX = x;
-startingY = y;
-l = ratio*(5+ 2*(sqrt(5)))*(1/2);
+/// @description Insert description here
+// You can write your code in this editor
+side = 40
+initialX = x;
+initialY = y;
 
-p1Y = startingY - ratio;
-p1X = startingX + (ratio/2);
+
+l = (side/2)*(5 + 2*(sqrt(5)));
+
+p1Y = initialY + l;
+p1X = initialX + (side/2);
 
 p2Y = p1Y;
-p2X = startingX - (ratio/2);
+p2X = initialX - (side/2);
 
-p3Y = 
+p3Y = initialY + (l/2);
+p3X = sqrt((side^2) - (l/2)^2);
+
+p4Y = initialY + (l/2);
+p4X = sqrt((side^2) + (l/2)^2);
