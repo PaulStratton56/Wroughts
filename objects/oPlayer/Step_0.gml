@@ -24,12 +24,9 @@ image_angle=point_direction(x,y,mouse_x,mouse_y);
 x+=horizontal*Sp;
 y+=vertical*Sp;
 if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
-	x=xstart;
-	y=ystart;
+	x-=horizontal*Sp;
+	y-=vertical*Sp;
 }
-//tanky janky code
-//x-=vertical*lengthdir_x(Sp,image_angle)+horizontal*lengthdir_x(Sp,image_angle+90);
-//y-=vertical*lengthdir_y(Sp,image_angle)+horizontal*lengthdir_y(Sp,image_angle+90);
 #endregion
 
 #region Weaponry
