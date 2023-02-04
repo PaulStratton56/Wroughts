@@ -1,4 +1,4 @@
 Sp = 5;
 timedelay =0;
-currentWeapon = "scythe";
+currentWeapon = oPlayerHammer;
 playerAttacking = false;

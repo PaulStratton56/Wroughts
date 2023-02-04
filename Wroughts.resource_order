@@ -20,6 +20,7 @@
     {"name":"sPlayerHammer","order":4,"path":"sprites/sPlayerHammer/sPlayerHammer.yy",},
     {"name":"rTitle","order":1,"path":"rooms/rTitle/rTitle.yy",},
     {"name":"sStartButton","order":6,"path":"sprites/sStartButton/sStartButton.yy",},
+    {"name":"playerHas","order":1,"path":"scripts/playerHas/playerHas.yy",},
     {"name":"oTitle","order":7,"path":"objects/oTitle/oTitle.yy",},
     {"name":"oPlayerHammer","order":2,"path":"objects/oPlayerHammer/oPlayerHammer.yy",},
     {"name":"sQuitButton","order":7,"path":"sprites/sQuitButton/sQuitButton.yy",},
@@ -31,6 +32,7 @@
     {"name":"sTitle","order":8,"path":"sprites/sTitle/sTitle.yy",},
     {"name":"oStartButton","order":8,"path":"objects/oStartButton/oStartButton.yy",},
     {"name":"oPlayerScythe","order":1,"path":"objects/oPlayerScythe/oPlayerScythe.yy",},
+    {"name":"oPlayerWeapon","order":9,"path":"objects/oPlayerWeapon/oPlayerWeapon.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
   ],
 }

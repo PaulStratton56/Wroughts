@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-#region //controls
+#region Controls
 
 up = (keyboard_check(vk_up) + keyboard_check(ord("W"))) % 2;
 down = (keyboard_check(vk_down) + keyboard_check(ord("S"))) % 2;
@@ -12,10 +12,7 @@ attack = mouse_check_button_pressed(mb_left);
 aura = mouse_check_button_pressed(mb_right);
 #endregion
 
-
-
-
-#region // movement
+#region Movement
 vertical = down-up; //y axis inverted
 horizontal = right-left;
 
@@ -32,8 +29,8 @@ if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,ro
 #region Weaponry
 
 
-if(keyboard_check_pressed(ord("1"))){ currentWeapon = "scythe" }
-if(keyboard_check_pressed(ord("2"))){ currentWeapon = "hammer" }
+if(keyboard_check_pressed(ord("1")) and playerHas(oPlayerScythe)){ currentWeapon = oPlayerScythe }
+if(keyboard_check_pressed(ord("2")) and playerHas(oPlayerHammer)){ currentWeapon = oPlayerHammer }
 
 if(attack && !playerAttacking){
 
@@ -43,7 +40,7 @@ if(attack && !playerAttacking){
 
 #endregion 
 
-#region//deconstructing aura
+#region Deconstructing aura
 timedelay--;
 if(aura && !playerAttacking && timedelay<0){
 	instance_create_layer(x,y,"lEntities",oAura);
