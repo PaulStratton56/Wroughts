@@ -7,5 +7,5 @@ if(distance_to_point(points[choice][0],points[choice][1])<1){
 	}
 }
 else{
-	move_towards_point(points[choice][0],points[choice][1],3);
+	move_towards_point(points[choice][0],points[choice][1],6);
 }

@@ -6,10 +6,7 @@
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
-  "instanceCreationOrder": [
-    {"name":"inst_4D7648D6","path":"rooms/rFight1/rFight1.yy",},
-    {"name":"inst_6B9C20B6","path":"rooms/rFight1/rFight1.yy",},
-  ],
+  "instanceCreationOrder": [],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"lBorder","assets":[
