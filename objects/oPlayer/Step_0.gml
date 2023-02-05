@@ -20,17 +20,26 @@ horizontal = right-left;
 
 image_angle=point_direction(x,y,mouse_x,mouse_y);
 
+if (collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
 x+=(horizontal*Sp + lengthdir_x(kbLen,kbDir));
 y+=(vertical*Sp + lengthdir_y(kbLen,kbDir));
+}
 
 kbLen *= 0.9;
-if(kbLen <= 1){ kbLen = 0; }
+if(kbLen <= 1){ 
+	kbLen = 0;
+	
+}
 
 
 if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
 	x-=horizontal*Sp;
 	y-=vertical*Sp;
 }
+else{
+	
+}
+
 
 if(dash and dashcd = 0){
 	dashcd = 60;
@@ -79,5 +88,4 @@ with(instance_place(x,y,oEnemy)){
 if(pHealth <= 0){
 	room_goto(rDefeat);
 }
-
 #endregion
