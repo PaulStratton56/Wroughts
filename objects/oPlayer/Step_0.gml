@@ -41,11 +41,11 @@ if(attack && !playerAttacking){
 #endregion 
 
 #region Deconstructing aura
+
 timedelay--;
 if(aura && !playerAttacking && timedelay<0){
 	instance_create_layer(x,y,"lEntities",oAura);
 	timedelay=gamespeed_fps*3;//3 second delay
 }
-
 
 #endregion

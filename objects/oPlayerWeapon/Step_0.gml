@@ -9,7 +9,7 @@ if(mouse_check_button_released(mb_left)){
 	hurtbox = true;
 }
 
-with(instance_place(x,y,oEnemy1)){
+with(instance_place(x,y,oEnemy)){
 	if(image_index == 1){
 		array_push(oGame.inventory,oPlayerScythe);
 		instance_destroy();

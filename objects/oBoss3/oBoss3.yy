@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oTitle",
+  "name": "oBoss3",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,7 +9,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oEnemy",
+    "path": "objects/oEnemy/oEnemy.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sTitle",
-    "path": "sprites/sTitle/sTitle.yy",
+    "name": "sScyEnemy",
+    "path": "sprites/sScyEnemy/sScyEnemy.yy",
   },
   "spriteMaskId": null,
   "visible": true,
