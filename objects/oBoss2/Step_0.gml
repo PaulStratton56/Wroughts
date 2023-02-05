@@ -3,10 +3,12 @@
 
 // Inherit the parent event
 event_inherited();
-//if(hspeed!=0){
-//	image_xscale=size*sign(-hspeed);
-//}
-
+if(hspeed!=0){
+	image_xscale=size*sign(-hspeed);
+}
+else{
+	image_xscale=size*sign(oPlayer.x-x);
+}
 #region Travelling
 	if(sqrt(sqr(points[choice][0]-x)+sqr(points[choice][1]-y))<1){//if and pentagon vertex
 		speed=0;
