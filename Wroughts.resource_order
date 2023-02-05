@@ -30,6 +30,7 @@
     {"name":"HammerCode","order":14,"path":"objects/HammerCode/HammerCode.yy",},
     {"name":"oBoss1","order":11,"path":"objects/oBoss1/oBoss1.yy",},
     {"name":"sDefeat","order":14,"path":"sprites/sDefeat/sDefeat.yy",},
+    {"name":"sHammerSmash","order":19,"path":"sprites/sHammerSmash/sHammerSmash.yy",},
     {"name":"sPlayerScytheHeld","order":16,"path":"sprites/sPlayerScytheHeld/sPlayerScytheHeld.yy",},
     {"name":"playerHas","order":1,"path":"scripts/playerHas/playerHas.yy",},
     {"name":"sHammerGuy","order":16,"path":"sprites/sHammerGuy/sHammerGuy.yy",},
