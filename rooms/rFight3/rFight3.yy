@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rFight3",
-  "creationCodeFile": "${project_dir}/rooms/rFight1/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/rFight3/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

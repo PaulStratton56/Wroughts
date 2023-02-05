@@ -19,11 +19,7 @@ if(mouse_check_button_released(mb_left)){
 
 with(instance_place(x,y,oEnemy)){
 	if(other.hurtbox and size <= 0.6){
-		eHealth -= 2;
+		eHealth -= 5;
 		other.hurtbox = false;
-		if(eHealth == 0){	
-			array_push(oGame.inventory,oPlayerScythe);
-			instance_destroy();
-		}
 	}
 }
