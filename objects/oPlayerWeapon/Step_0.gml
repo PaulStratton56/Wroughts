@@ -13,5 +13,9 @@ with(instance_place(x,y,oEnemy)){
 	if(other.hurtbox and size <= 0.6){
 		eHealth -= 1;
 		other.hurtbox = false;
+		if(eHealth <= 0){	
+			array_push(oGame.inventory,oPlayerScythe);
+			instance_destroy();
+		}
 	}
 }

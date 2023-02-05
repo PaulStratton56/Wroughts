@@ -21,14 +21,20 @@ if(!collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,roo
 if(rico>2){
 	beingsummoned=true;
 }
-if(!beingsummoned && rico>0){
-	with(instance_place(x,y,oBoss3)){
-		if(invince<0){
-			eHealth-=.5;
-			invince=60;
+if(instance_exists(oBoss3)){
+	if(!beingsummoned && rico>0){
+		with(instance_place(x,y,oBoss3)){
+			if(invince<0 && size<=.6){
+				eHealth-=.5;
+				invince=60;
+			}
+			if(eHealth<=0){
+				instance_destroy();
+			}
 		}
 	}
 }
+
 with(instance_place(x,y,oPlayer)){
 	if(!immune){pHealth = max(0, pHealth - 1); immune = true;}
 	else{

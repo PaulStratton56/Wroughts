@@ -3,7 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-
 size=1.5;
 invince =60;
 instance_create_depth(x,y,128,oBossAura);
