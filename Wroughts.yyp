@@ -33,6 +33,7 @@
   },
   "resources": [
     {"id":{"name":"oAura","path":"objects/oAura/oAura.yy",},"order":0,},
+    {"id":{"name":"sDeathExplosion","path":"sprites/sDeathExplosion/sDeathExplosion.yy",},"order":0,},
     {"id":{"name":"rDefeat","path":"rooms/rDefeat/rDefeat.yy",},"order":0,},
     {"id":{"name":"sPlayerHealthFrame","path":"sprites/sPlayerHealthFrame/sPlayerHealthFrame.yy",},"order":0,},
     {"id":{"name":"oHammerShock","path":"objects/oHammerShock/oHammerShock.yy",},"order":0,},
@@ -58,6 +59,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sQuitButton","path":"sprites/sQuitButton/sQuitButton.yy",},"order":0,},
     {"id":{"name":"sEnemyHealth","path":"sprites/sEnemyHealth/sEnemyHealth.yy",},"order":0,},
+    {"id":{"name":"oDeathExplosion","path":"objects/oDeathExplosion/oDeathExplosion.yy",},"order":0,},
     {"id":{"name":"sShockwave","path":"sprites/sShockwave/sShockwave.yy",},"order":0,},
     {"id":{"name":"sAura","path":"sprites/sAura/sAura.yy",},"order":0,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":0,},
@@ -76,6 +78,7 @@
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},"order":0,},
     {"id":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"order":0,},
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},"order":3,},
+    {"id":{"name":"nReferences","path":"notes/nReferences/nReferences.yy",},"order":0,},
     {"id":{"name":"playerAttack","path":"scripts/playerAttack/playerAttack.yy",},"order":0,},
     {"id":{"name":"oPlayerScythe","path":"objects/oPlayerScythe/oPlayerScythe.yy",},"order":0,},
     {"id":{"name":"oPlayerWeapon","path":"objects/oPlayerWeapon/oPlayerWeapon.yy",},"order":0,},

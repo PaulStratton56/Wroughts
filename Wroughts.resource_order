@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oAura","order":2,"path":"objects/oAura/oAura.yy",},
+    {"name":"sDeathExplosion","order":18,"path":"sprites/sDeathExplosion/sDeathExplosion.yy",},
     {"name":"rDefeat","order":6,"path":"rooms/rDefeat/rDefeat.yy",},
     {"name":"sPlayerHealthFrame","order":10,"path":"sprites/sPlayerHealthFrame/sPlayerHealthFrame.yy",},
     {"name":"oHammerShock","order":15,"path":"objects/oHammerShock/oHammerShock.yy",},
@@ -38,6 +39,7 @@
     {"name":"oBoss3","order":13,"path":"objects/oBoss3/oBoss3.yy",},
     {"name":"sQuitButton","order":7,"path":"sprites/sQuitButton/sQuitButton.yy",},
     {"name":"sEnemyHealth","order":13,"path":"sprites/sEnemyHealth/sEnemyHealth.yy",},
+    {"name":"oDeathExplosion","order":16,"path":"objects/oDeathExplosion/oDeathExplosion.yy",},
     {"name":"sShockwave","order":17,"path":"sprites/sShockwave/sShockwave.yy",},
     {"name":"sAura","order":5,"path":"sprites/sAura/sAura.yy",},
     {"name":"oGame","order":3,"path":"objects/oGame/oGame.yy",},
