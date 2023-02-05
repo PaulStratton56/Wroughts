@@ -13,6 +13,7 @@ aura = mouse_check_button_pressed(mb_right);
 #endregion
 
 #region Movement
+
 vertical = down-up; //y axis inverted
 horizontal = right-left;
 
@@ -20,10 +21,23 @@ image_angle=point_direction(x,y,mouse_x,mouse_y);
 
 x+=horizontal*Sp;
 y+=vertical*Sp;
+
+
 if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
 	x-=horizontal*Sp;
 	y-=vertical*Sp;
 }
+
+if(keyboard_check_pressed(vk_space) and dashcd = 0){
+	dashcd = 60;
+	Sp = 20;
+}
+
+dashcd = max(0, dashcd-1);
+if(dashcd <= 50){
+	Sp = 5;
+}
+
 #endregion
 
 #region Weaponry
