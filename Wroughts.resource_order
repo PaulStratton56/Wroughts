@@ -38,7 +38,6 @@
     {"name":"sEnemyHealth","order":13,"path":"sprites/sEnemyHealth/sEnemyHealth.yy",},
     {"name":"sShockwave","order":17,"path":"sprites/sShockwave/sShockwave.yy",},
     {"name":"sAura","order":5,"path":"sprites/sAura/sAura.yy",},
-    {"name":"sHammerGuyModified","order":15,"path":"sprites/sHammerGuyModified/sHammerGuyModified.yy",},
     {"name":"oGame","order":3,"path":"objects/oGame/oGame.yy",},
     {"name":"rFight1","order":2,"path":"rooms/rFight1/rFight1.yy",},
     {"name":"oBoss2","order":12,"path":"objects/oBoss2/oBoss2.yy",},

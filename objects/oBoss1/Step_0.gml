@@ -9,13 +9,14 @@ if(charge){
 	if(chargeCounter == 120){
 		charge = false;
 		direction = point_direction(x, y, oPlayer.x, oPlayer.y);
-		speed = 45;
+		speed = 35;
+		image_speed=2;
 		chargeCounter=0;  
 	}
 }
 else if(!attacking){
 	direction = point_direction(x, y, oPlayer.x, oPlayer.y);
-	speed = 15;
+	speed = 12;
 	attacking = true;
 }
 

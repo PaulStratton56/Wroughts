@@ -58,7 +58,6 @@
     {"id":{"name":"sEnemyHealth","path":"sprites/sEnemyHealth/sEnemyHealth.yy",},"order":0,},
     {"id":{"name":"sShockwave","path":"sprites/sShockwave/sShockwave.yy",},"order":0,},
     {"id":{"name":"sAura","path":"sprites/sAura/sAura.yy",},"order":0,},
-    {"id":{"name":"sHammerGuyModified","path":"sprites/sHammerGuyModified/sHammerGuyModified.yy",},"order":0,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":0,},
     {"id":{"name":"rFight1","path":"rooms/rFight1/rFight1.yy",},"order":0,},
     {"id":{"name":"oBoss2","path":"objects/oBoss2/oBoss2.yy",},"order":0,},
