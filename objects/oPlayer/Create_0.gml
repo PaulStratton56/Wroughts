@@ -6,5 +6,3 @@ dashcd = 0;
 pHealth = 10;
 kbDir = 0;
 kbLen = 0;
-immune = false;
-immunity = 20;

@@ -20,17 +20,26 @@ horizontal = right-left;
 
 image_angle=point_direction(x,y,mouse_x,mouse_y);
 
+if (collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
 x+=(horizontal*Sp + lengthdir_x(kbLen,kbDir));
 y+=(vertical*Sp + lengthdir_y(kbLen,kbDir));
+}
 
 kbLen *= 0.9;
-if(kbLen <= 1){ kbLen = 0; }
+if(kbLen <= 1){ 
+	kbLen = 0;
+	
+}
 
 
 if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
 	x-=horizontal*Sp;
 	y-=vertical*Sp;
 }
+else{
+	
+}
+
 
 if(dash and dashcd = 0){
 	dashcd = 60;
@@ -70,17 +79,13 @@ if(aura && !playerAttacking && timedelay<0){
 
 #region Damage
 
-with(instance_place(x,y,oEnemy) && immune){
+with(instance_place(x,y,oEnemy)){
 	other.pHealth -= 1;
 	other.kbDir = point_direction(x,y,other.x,other.y);
 	other.kbLen = 20;
-	immune = true;
 }
 
 if(pHealth <= 0){
 	room_goto(rDefeat);
 }
-if(immune) immunity--;
-if (immunity < 0){immune = false; immunity = 20}
-
 #endregion
