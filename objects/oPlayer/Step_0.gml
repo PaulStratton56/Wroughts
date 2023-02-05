@@ -88,7 +88,7 @@ if(!defeated){
 	#region Damage
 
 	with(instance_place(x,y,oEnemy)){
-		if(!other.immune){other.pHealth -= 1; other.immune = true; }
+		if(!other.immune){other.pHealth = max(0, other.pHealth - 1); other.immune = true; }
 		other.kbDir = point_direction(x,y,other.x,other.y);
 		other.kbLen = 20;
 	}
