@@ -10,7 +10,7 @@ if(mouse_check_button_released(mb_left)){
 }
 
 with(instance_place(x,y,oEnemy)){
-	if(image_index == 1){
+	if(other.hurtbox and image_index == 1){
 		array_push(oGame.inventory,oPlayerScythe);
 		instance_destroy();
 	}
