@@ -84,7 +84,11 @@ if(aura && !playerAttacking){
 #region Damage
 
 with(instance_place(x,y,oEnemy)){
-	other.pHealth -= 1;
+	if(!other.immune){other.pHealth -= 1; other.immune = true;}
+	else{
+		other.immunityCd--;
+		if(other.immunityCd < 0){other.immune = false; other.immunityCd = 10;}
+	}
 	other.kbDir = point_direction(x,y,other.x,other.y);
 	other.kbLen = 20;
 }
@@ -108,4 +112,11 @@ if(pHealth <= 0){
 	else if(point >= 247.5 and point < 292.5){ image_index = 6 };
 	else image_index = 7;
 
+#endregion
+
+#region //Out of bounds check
+if !(collision_ellipse(0+sprite_width -20,0+sprite_height-20,room_width-sprite_width+20,room_height-sprite_height+20,self,true,false)){
+	x = 990
+	y = 445
+}
 #endregion
