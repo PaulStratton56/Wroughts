@@ -1,18 +1,16 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
 // Inherit the parent event
 event_inherited();
 #region //movement
+
+
+
 if(charge){
 	chargeCounter++;
 	if(chargeCounter == 120){
 		charge = false;
 		direction = point_direction(x, y, oPlayer.x, oPlayer.y);
 		speed = 45;
-		chargeCounter=0;
+		chargeCounter=0;  
 	}
 }
 else if(!attacking){

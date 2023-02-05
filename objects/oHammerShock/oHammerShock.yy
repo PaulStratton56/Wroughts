@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBoss1",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "oHammerShock",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -32,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sHammerGuy",
-    "path": "sprites/sHammerGuy/sHammerGuy.yy",
+    "name": "sShockwave",
+    "path": "sprites/sShockwave/sShockwave.yy",
   },
   "spriteMaskId": null,
   "visible": true,
