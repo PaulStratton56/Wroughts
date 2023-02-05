@@ -18,7 +18,6 @@ dash = keyboard_check_pressed(vk_space)
 vertical = down-up; //y axis inverted
 horizontal = right-left;
 
-image_angle=point_direction(x,y,mouse_x,mouse_y);
 
 x+=(horizontal*Sp + lengthdir_x(kbLen,kbDir));
 y+=(vertical*Sp + lengthdir_y(kbLen,kbDir));
@@ -28,8 +27,8 @@ if(kbLen <= 1){ kbLen = 0; }
 
 
 if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
-	x-=horizontal*Sp;
-	y-=vertical*Sp;
+	x-=(horizontal*Sp + lengthdir_x(kbLen,kbDir));
+	y-=(vertical*Sp + lengthdir_y(kbLen,kbDir));
 }
 
 if(dash and dashcd = 0){
@@ -47,8 +46,14 @@ if(dashcd <= 50){
 #region Weaponry
 
 
-if(keyboard_check_pressed(ord("1")) and playerHas(oPlayerScythe)){ currentWeapon = oPlayerScythe }
-if(keyboard_check_pressed(ord("2")) and playerHas(oPlayerHammer)){ currentWeapon = oPlayerHammer }
+if(keyboard_check_pressed(ord("1")) and playerHas(oPlayerScythe)){ 
+	currentWeapon = oPlayerScythe;
+	currentWeaponHeld = sPlayerScytheHeld;
+}
+if(keyboard_check_pressed(ord("2")) and playerHas(oPlayerHammer)){ 
+	currentWeapon = oPlayerHammer;
+	currentWeaponHeld = sPlayerHammerHeld;
+}
 
 if(attack && !playerAttacking){
 
@@ -60,10 +65,9 @@ if(attack && !playerAttacking){
 
 #region Deconstructing aura
 
-timedelay--;
-if(aura && !playerAttacking && timedelay<0){
+if(aura && !playerAttacking){
+	playerAttacking = true;
 	instance_create_layer(x,y,"lEntities",oAura);
-	timedelay=gamespeed_fps*3;//3 second delay
 }
 
 #endregion
@@ -79,5 +83,20 @@ with(instance_place(x,y,oEnemy)){
 if(pHealth <= 0){
 	room_goto(rDefeat);
 }
+
+#endregion
+
+#region Animation
+
+	point = point_direction(x,y,mouse_x,mouse_y);
+
+	if(point >= 337.5 or point < 22.5){ image_index = 0 };
+	else if(point >= 22.5 and point < 67.5){ image_index = 1 };
+	else if(point >= 67.5 and point < 112.5){ image_index = 2 };
+	else if(point >= 112.5 and point < 157.5){ image_index = 3 };
+	else if(point >= 157.5 and point < 202.5){ image_index = 4 };
+	else if(point >= 202.5 and point < 247.5){ image_index = 5 };
+	else if(point >= 247.5 and point < 292.5){ image_index = 6 };
+	else image_index = 7;
 
 #endregion
