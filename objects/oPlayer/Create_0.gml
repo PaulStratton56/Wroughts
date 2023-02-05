@@ -1,8 +1,11 @@
 Sp = 5;
-timedelay =0;
 currentWeapon = oPlayerHammer;
+currentWeaponHeld = sPlayerHammerHeld;
 playerAttacking = false;
 dashcd = 0;
 pHealth = 10;
 kbDir = 0;
 kbLen = 0;
+image_xscale = 1.5;
+image_yscale = 1.5;
+heldScale = [.5,-.75,-1,-.75,-.5,.75,1,.75];

@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sPlayerHealthFrame",
-  "bbox_bottom": 19,
+  "bbox_bottom": 59,
   "bbox_left": 0,
-  "bbox_right": 47,
+  "bbox_right": 287,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"64139b8a-1135-4144-b18b-b8437445b5c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf55ef72-38fb-49a6-8886-aad0bfd8cabb",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 20,
+  "height": 60,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"92643c70-8998-464c-9744-0a1bfb3b8940","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9d7b599d-8aa0-4d9c-99fa-6f9b89972b7d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"64139b8a-1135-4144-b18b-b8437445b5c1","path":"sprites/sPlayerHealthFrame/sPlayerHealthFrame.yy",},},},"Disabled":false,"id":"acb7b6b6-2c3c-4e64-a08d-e4527cc68193","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bf55ef72-38fb-49a6-8886-aad0bfd8cabb","path":"sprites/sPlayerHealthFrame/sPlayerHealthFrame.yy",},},},"Disabled":false,"id":"0b89192f-3ee4-4cbc-a79c-cb4d411cc7e6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 48,
+  "width": 288,
 }
