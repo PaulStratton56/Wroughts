@@ -12,10 +12,7 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "oEnemy",
-    "path": "objects/oEnemy/oEnemy.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sScyEnemy",
-    "path": "sprites/sScyEnemy/sScyEnemy.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
