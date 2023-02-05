@@ -8,3 +8,4 @@ event_inherited();
 attacking = false
 charge = false
 chargeCounter = 0;
+
