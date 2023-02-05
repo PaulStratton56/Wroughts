@@ -2,7 +2,7 @@
 // You can write your code in this editor
 image_xscale = size;
 image_yscale = size;
-if(eHealth <= 0 and alive){ 
+if(eHealth == 0 and alive){ 
 	alive = false; 
 	speed = 0;
 	deathPlace = [x,y];
@@ -26,12 +26,12 @@ if(!alive){
 			}
 			array_push(oGame.dialogQueue,"You've defeated " + oGame.bossNames[room-1] + "!");
 			if(room == 1){
-				array_push(oGame.dialogQueue,"From his body, you find a simple hammer. (2 to equip)");
-				array_push(oGame.inventory,oPlayerHammer);
+				array_push(oGame.dialogQueue,"Among the ashes, you find a scythe. (2 to equip)");
+				array_push(oGame.inventory,oPlayerScythe);
 			}
 			if(room == 2){
-				array_push(oGame.dialogQueue,"Among the ashes, you find a scythe. (3 to equip)");
-				array_push(oGame.inventory,oPlayerScythe);
+				array_push(oGame.dialogQueue,"From his body, you find a simple hammer. (3 to equip)");
+				array_push(oGame.inventory,oPlayerHammer);
 			}
 			if(room == 3){
 				array_push(oGame.dialogQueue,"With him gone, the game is back to its roots!");

@@ -59,16 +59,15 @@ if(!defeated){
 		currentWeapon = oPlayerRock;
 		currentWeaponHeld = noone;
 	}
-	if(keyboard_check_pressed(ord("2")) and playerHas(oPlayerHammer)){ 
-		currentWeapon = oPlayerHammer;
-		currentWeaponHeld = sPlayerHammerHeld;
-	}
-	if(keyboard_check_pressed(ord("3")) and playerHas(oPlayerScythe)){ 
+	if(keyboard_check_pressed(ord("2")) and playerHas(oPlayerScythe)){ 
 		currentWeapon = oPlayerScythe;
 		currentWeaponHeld = sPlayerScytheHeld;
 	}
-
-	if(attack && !playerAttacking){
+	if(keyboard_check_pressed(ord("3")) and playerHas(oPlayerHammer)){ 
+		currentWeapon = oPlayerHammer;
+		currentWeaponHeld = sPlayerHammerHeld;
+	}
+	if(attack && !playerAttacking && playerHas(currentWeapon)){
 
 		playerAttacking = true;
 		playerAttack(currentWeapon);

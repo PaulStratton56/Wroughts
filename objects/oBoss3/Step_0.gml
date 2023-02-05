@@ -4,6 +4,12 @@
 // Inherit the parent event
 event_inherited();
 
+if(eHealth <= 0){
+	while(instance_exists(oBoss3Weapon)){
+		instance_destroy(instance_find(oBoss3Weapon,0));	
+	}
+}
+
 if(random(7.99)<1){
 	image_index=floor(random(3.99));
 }

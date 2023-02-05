@@ -25,7 +25,7 @@ if(instance_exists(oBoss3)){
 	if(!beingsummoned && rico>0){
 		with(instance_place(x,y,oBoss3)){
 			if(invince<0 && size<=.6){
-				eHealth-=.5;
+				eHealth = max(0, eHealth - .5);
 				invince=60;
 			}
 			if(eHealth<=0){
