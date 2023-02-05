@@ -19,7 +19,7 @@ if(mouse_check_button_released(mb_left)){
 
 with(instance_place(x,y,oEnemy)){
 	if(other.hurtbox and size <= 0.6){
-		eHealth -= 5;
+		eHealth -= 2;
 		other.hurtbox = false;
 	}
 }
