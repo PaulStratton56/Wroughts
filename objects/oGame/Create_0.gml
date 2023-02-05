@@ -8,5 +8,5 @@ enemyHealth = 0;
 dialogQueue = [""];
 printText = "";
 printTimer = 0;
-bossNamesShort = ["Hephastaestus","Scylla","Frownboi"];
+bossNamesShort = ["Hephaestus","Scylla","Frownboi"];
 bossNames = ["Hephaestus The Hammer Lord", "Scylla the Scythe User", "FrownBoi, Destroyer of Worlds"]

@@ -5,7 +5,7 @@ if(room_get_name(room) == "rFight1" or room_get_name(room) == "rFight2" or room_
 	draw_sprite_ext(sPlayerHealth,0,34,22,6* (oPlayer.pHealth/10),3,0,c_white,1);
 	draw_sprite_ext(sPlayerHealthFrame,0,10,10,1,1,0,c_white,1);
 	draw_set_halign(fa_left);
-	draw_text_color(10,80,"SmileBoi",c_green,c_green,c_green,c_green,1);
+	draw_text_color(10,80,"SmileBoi",c_lime,c_lime,c_lime,c_lime,1);
 	if(instance_exists(oEnemy)){
 		enemyHealth = oEnemy.eHealth/10;
 	}
