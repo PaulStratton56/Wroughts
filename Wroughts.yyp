@@ -49,6 +49,7 @@
     {"id":{"name":"HammerCode","path":"objects/HammerCode/HammerCode.yy",},"order":0,},
     {"id":{"name":"oBoss1","path":"objects/oBoss1/oBoss1.yy",},"order":0,},
     {"id":{"name":"sDefeat","path":"sprites/sDefeat/sDefeat.yy",},"order":0,},
+    {"id":{"name":"sHammerSmash","path":"sprites/sHammerSmash/sHammerSmash.yy",},"order":0,},
     {"id":{"name":"sPlayerScytheHeld","path":"sprites/sPlayerScytheHeld/sPlayerScytheHeld.yy",},"order":0,},
     {"id":{"name":"playerHas","path":"scripts/playerHas/playerHas.yy",},"order":0,},
     {"id":{"name":"sHammerGuy","path":"sprites/sHammerGuy/sHammerGuy.yy",},"order":0,},

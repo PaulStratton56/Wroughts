@@ -2,8 +2,14 @@
 event_inherited();
 if(alive){
 	#region //movement
-
-
+	
+	if(smash && !smashLimiter){
+		instance_create_depth(oBoss1.x,oBoss1.y,-1,oHammerShock);
+		speed *= -1;
+		attacking = true;
+		smash = false;
+		smashLimiter = true;
+	}
 
 	if(charge){
 		chargeCounter++;
@@ -12,13 +18,17 @@ if(alive){
 			direction = point_direction(x, y, oPlayer.x, oPlayer.y);
 			speed = 35;
 			image_speed=2;
-			chargeCounter=0;  
+			chargeCounter=0;
+			smashCounter++;
+			if(smashCounter==3){smashLimiter = false;smashCounter=0;}
 		}
 	}
 	else if(!attacking){
 		direction = point_direction(x, y, oPlayer.x, oPlayer.y);
 		speed = 12;
 		attacking = true;
+		smashCounter++;
+		if(smashCounter==3){smashLimiter = false;smashCounter=0;}
 	}
 
 	else if(attacking){
@@ -29,6 +39,14 @@ if(alive){
 				speed = 0;
 			}
 			else attacking = false;
+		}
+		
+		else if(!smashLimiter){
+			s = irandom_range(0,10);
+			if(s < .0001){
+				k = irandom_range(0,10);
+				if(k < .0001) smash = true;
+			}
 		}
 	}
 	#endregion
