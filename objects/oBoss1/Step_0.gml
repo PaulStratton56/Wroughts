@@ -5,19 +5,26 @@
 
 // Inherit the parent event
 event_inherited();
+
+if(eHealth < 2) rage = 1.5;
 #region //movement
 if(charge){
+	k = irandom_range(1,1.2)//Time & speed coefficient
 	chargeCounter++;
-	if(chargeCounter == 120){
+	if(chargeCounter > 120*k){
 		charge = false;
 		direction = point_direction(x, y, oPlayer.x, oPlayer.y);
+<<<<<<< Updated upstream
 		speed = 40;
+=======
+		speed = 45*k*rage;
+>>>>>>> Stashed changes
 		chargeCounter=0;
 	}
 }
 else if(!attacking){
 	direction = point_direction(x, y, oPlayer.x, oPlayer.y);
-	speed = 15;
+	speed = 15*rage;
 	attacking = true;
 }
 
