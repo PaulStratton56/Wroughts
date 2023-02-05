@@ -85,12 +85,12 @@ if(aura && !playerAttacking){
 
 with(instance_place(x,y,oEnemy)){
 	if(!other.immune){other.pHealth -= 1; other.immune = true;}
-	else{
-		other.immunityCd--;
-		if(other.immunityCd < 0){other.immune = false; other.immunityCd = 10;}
-	}
 	other.kbDir = point_direction(x,y,other.x,other.y);
 	other.kbLen = 20;
+}
+if(immune){
+	immunityCd--;
+	if(immunityCd < 0){immune = false; immunityCd = 10;}
 }
 
 if(pHealth <= 0){
