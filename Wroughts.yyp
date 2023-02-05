@@ -39,6 +39,7 @@
     {"id":{"name":"sScyEnemy","path":"sprites/sScyEnemy/sScyEnemy.yy",},"order":2,},
     {"id":{"name":"rFight3","path":"rooms/rFight3/rFight3.yy",},"order":0,},
     {"id":{"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},"order":0,},
+    {"id":{"name":"HammerCode","path":"objects/HammerCode/HammerCode.yy",},"order":0,},
     {"id":{"name":"oBoss1","path":"objects/oBoss1/oBoss1.yy",},"order":0,},
     {"id":{"name":"playerHas","path":"scripts/playerHas/playerHas.yy",},"order":0,},
     {"id":{"name":"rVictory","path":"rooms/rVictory/rVictory.yy",},"order":0,},

@@ -1,3 +1,10 @@
+/// @description Frame data
+
+
+image_xscale = size;
+image_yscale = size;
+if(size <= 0.75){ image_index = 1; }
+
 if(!attacking){
 	//hammerBash();
 	direction = point_direction(x, y, oPlayer.x, oPlayer.y);
