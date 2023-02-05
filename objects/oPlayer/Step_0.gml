@@ -10,6 +10,7 @@ left = (keyboard_check(vk_left) + keyboard_check(ord("A"))) % 2;
 
 attack = mouse_check_button_pressed(mb_left);
 aura = mouse_check_button_pressed(mb_right);
+dash = keyboard_check_pressed(vk_space) 
 #endregion
 
 #region Movement
@@ -19,8 +20,11 @@ horizontal = right-left;
 
 image_angle=point_direction(x,y,mouse_x,mouse_y);
 
-x+=horizontal*Sp;
-y+=vertical*Sp;
+x+=(horizontal*Sp + lengthdir_x(kbLen,kbDir));
+y+=(vertical*Sp + lengthdir_y(kbLen,kbDir));
+
+kbLen *= 0.9;
+if(kbLen <= 1){ kbLen = 0; }
 
 
 if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,room_height-sprite_height,self,true,false)){
@@ -28,7 +32,7 @@ if !(collision_ellipse(0+sprite_width,0+sprite_height,room_width-sprite_width,ro
 	y-=vertical*Sp;
 }
 
-if(keyboard_check_pressed(vk_space) and dashcd = 0){
+if(dash and dashcd = 0){
 	dashcd = 60;
 	Sp = 20;
 }
@@ -60,6 +64,20 @@ timedelay--;
 if(aura && !playerAttacking && timedelay<0){
 	instance_create_layer(x,y,"lEntities",oAura);
 	timedelay=gamespeed_fps*3;//3 second delay
+}
+
+#endregion
+
+#region Damage
+
+with(instance_place(x,y,oEnemy)){
+	other.pHealth -= 1;
+	other.kbDir = point_direction(x,y,other.x,other.y);
+	other.kbLen = 20;
+}
+
+if(pHealth <= 0){
+	room_goto(rDefeat);
 }
 
 #endregion
