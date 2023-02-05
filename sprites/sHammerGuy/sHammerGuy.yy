@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sHammerGuy",
-  "bbox_bottom": 240,
+  "bbox_bottom": 235,
   "bbox_left": 5,
   "bbox_right": 255,
   "bbox_top": 0,
