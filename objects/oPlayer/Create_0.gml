@@ -9,3 +9,5 @@ kbLen = 0;
 image_xscale = 1.5;
 image_yscale = 1.5;
 heldScale = [.5,-.75,-1,-.75,-.5,.75,1,.75];
+immune = false;
+immunityCd = 10;
