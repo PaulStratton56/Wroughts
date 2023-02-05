@@ -70,14 +70,17 @@ if(aura && !playerAttacking && timedelay<0){
 
 #region Damage
 
-with(instance_place(x,y,oEnemy)){
+with(instance_place(x,y,oEnemy) && immune){
 	other.pHealth -= 1;
 	other.kbDir = point_direction(x,y,other.x,other.y);
 	other.kbLen = 20;
+	immune = true;
 }
 
 if(pHealth <= 0){
 	room_goto(rDefeat);
 }
+if(immune) immunity--;
+if (immunity < 0){immune = false; immunity = 20}
 
 #endregion
