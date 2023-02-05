@@ -2,16 +2,12 @@
   "resourceType": "GMMainOptions",
   "resourceVersion": "1.4",
   "name": "Main",
-<<<<<<< Updated upstream
-  "option_gameguid": "154f0ea1-e8fb-4846-a404-eab571a5ab46",
-=======
   "option_author": "",
   "option_collision_compatibility": false,
   "option_copy_on_write_enabled": false,
   "option_draw_colour": 4294967295,
   "option_game_speed": 60,
-  "option_gameguid": "24083ab1-b262-4748-ac65-7a3125767bc0",
->>>>>>> Stashed changes
+  "option_gameguid": "07da91aa-7eaa-4efe-a9e4-49829e0f4721",
   "option_gameid": "0",
   "option_mips_for_3d_textures": false,
   "option_sci_usesci": false,
