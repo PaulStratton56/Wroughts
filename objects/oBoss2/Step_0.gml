@@ -23,7 +23,10 @@ event_inherited();
 			image_index=0;
 		}
 		if(waitTime<0){
-			choice = floor(random(4.99));
+			current=choice;
+			do{
+				choice = floor(random(4.99));
+			}until(current!=choice);
 			midpoint = [(points[choice][0]+x)/2,(points[choice][1]+y)/2];
 			waitTime=game_get_speed(gamespeed_fps)*2;//1 second
 			image_index=1;
