@@ -11,7 +11,7 @@ if (life <= 0 or !collision_ellipse(0+sprite_width,0+sprite_height,room_width-sp
 
 with(instance_place(x,y,oEnemy)){
 	if(other.hurtbox and size <= 0.6){
-		eHealth -= 0.5;
+		eHealth = max(0, eHealth - 0.5);
 	}
 	oPlayer.playerAttacking = false;
 	instance_destroy(other);

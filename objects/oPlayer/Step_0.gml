@@ -67,7 +67,7 @@ if(!defeated){
 		currentWeapon = oPlayerHammer;
 		currentWeaponHeld = sPlayerHammerHeld;
 	}
-	if(attack && !playerAttacking && playerHas(currentWeapon)){
+	if(attack && (!playerAttacking or (instance_number(oPlayerRock) < 2)) && playerHas(currentWeapon)){
 
 		playerAttacking = true;
 		playerAttack(currentWeapon);
