@@ -1,6 +1,6 @@
 Sp = 5;
-currentWeapon = oPlayerScythe;
-currentWeaponHeld = sPlayerScytheHeld;
+currentWeapon = oPlayerRock;
+currentWeaponHeld = noone;
 playerAttacking = false;
 dashcd = 0;
 pHealth = 10;

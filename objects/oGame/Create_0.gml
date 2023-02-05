@@ -1,6 +1,6 @@
 /// @description Global Variables
 depth = -16000;
-inventory = [oPlayerScythe];
+inventory = [];
 prevPlaces = [[-1,-1], [-1,-1], [-1,-1]];
 prevSet = false;
 lastPos = 0;
