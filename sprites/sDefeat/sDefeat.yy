@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sDefeat",
-  "bbox_bottom": 54,
-  "bbox_left": 11,
-  "bbox_right": 58,
-  "bbox_top": 4,
+  "bbox_bottom": 255,
+  "bbox_left": 0,
+  "bbox_right": 255,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b45be092-b9c1-41a6-a57c-718916d10dc1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ae24280-a360-478b-a840-4a142e71d551",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 256,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"04cc5904-a546-4474-bb09-c47529916c1e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c928edd9-5bac-4fa6-9eab-d5dbc1696964","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b45be092-b9c1-41a6-a57c-718916d10dc1","path":"sprites/sDefeat/sDefeat.yy",},},},"Disabled":false,"id":"824be63a-f2ef-4927-812b-469ec9ae7eec","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8ae24280-a360-478b-a840-4a142e71d551","path":"sprites/sDefeat/sDefeat.yy",},},},"Disabled":false,"id":"1f6614b9-f654-4051-aa11-9dbdddada12e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 256,
 }

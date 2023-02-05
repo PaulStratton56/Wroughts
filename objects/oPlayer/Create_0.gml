@@ -1,6 +1,6 @@
 Sp = 5;
-currentWeapon = oPlayerHammer;
-currentWeaponHeld = sPlayerHammerHeld;
+currentWeapon = oPlayerScythe;
+currentWeaponHeld = sPlayerScytheHeld;
 playerAttacking = false;
 dashcd = 0;
 pHealth = 10;
@@ -11,3 +11,4 @@ image_yscale = 1.5;
 heldScale = [.5,-.75,-1,-.75,-.5,.75,1,.75];
 immune = false;
 immunityCd = 10;
+defeated = false;

@@ -24,7 +24,20 @@ if(!alive){
 				image_yscale = 3;
 				image_speed = 0.5;
 			}
+			array_push(oGame.dialogQueue,"You've defeated " + oGame.bossNames[room-1] + "!");
+			if(room == 1){
+				array_push(oGame.dialogQueue,"From his body, you find a simple hammer. (2 to equip)");
+				array_push(oGame.inventory,oPlayerHammer);
+			}
+			if(room == 2){
+				array_push(oGame.dialogQueue,"Among the ashes, you find a scythe. (3 to equip)");
+				array_push(oGame.inventory,oPlayerScythe);
+			}
+			if(room == 3){
+				array_push(oGame.dialogQueue,"With him gone, the game is back to its roots!");
+			}
 			instance_destroy();	
+			
 		}
 	}
 }
