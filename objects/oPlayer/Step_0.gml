@@ -55,13 +55,17 @@ if(!defeated){
 	#region Weaponry
 
 
-	if(keyboard_check_pressed(ord("1")) and playerHas(oPlayerScythe)){ 
-		currentWeapon = oPlayerScythe;
-		currentWeaponHeld = sPlayerScytheHeld;
+	if(keyboard_check_pressed(ord("1"))){ 
+		currentWeapon = oPlayerRock;
+		currentWeaponHeld = noone;
 	}
 	if(keyboard_check_pressed(ord("2")) and playerHas(oPlayerHammer)){ 
 		currentWeapon = oPlayerHammer;
 		currentWeaponHeld = sPlayerHammerHeld;
+	}
+	if(keyboard_check_pressed(ord("3")) and playerHas(oPlayerScythe)){ 
+		currentWeapon = oPlayerScythe;
+		currentWeaponHeld = sPlayerScytheHeld;
 	}
 
 	if(attack && !playerAttacking){
