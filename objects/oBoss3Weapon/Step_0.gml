@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(sqrt(sqr(x-targetx)+sqr(y-targety))<3){
-	if(sprite_index=sPlayerHammerHeld){
+	if(sprite_index==sPlayerHammerHeld){
 		oBoss3.hashammer=true;
 	}
-	if(sprite_index=sPlayerScytheHeld){
+	if(sprite_index==sPlayerScytheHeld){
 		oBoss3.hasScythe=true;
 	}
 	beingsummoned=false;
