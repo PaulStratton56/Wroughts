@@ -28,9 +28,6 @@ if(instance_exists(oBoss3)){
 				eHealth = max(0, eHealth - .5);
 				invince=60;
 			}
-			if(eHealth<=0){
-				instance_destroy();
-			}
 		}
 	}
 }
